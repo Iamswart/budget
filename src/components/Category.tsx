@@ -56,7 +56,7 @@ const Category = () => {
       >
         Category Breakdown
       </Text>
-      <VStack spacing={4} w="full" bg={"#FCFEFF"} align="stretch">
+      <VStack spacing={4} w="full" bg={"#FCFEFF"} align="stretch" py={"15px"}>
         {categories.map((category: any, index: any) => (
           <Flex
             key={index}
